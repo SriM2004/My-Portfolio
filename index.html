@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio Website - Sri Mulyani</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e1af2340ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p>Welcome To My Portfolio</p>
+                <h1>Hi, I'm <span>Sri Mulyani</span><br></h1>
+            </div>
+            
+    </div>
+</div>
+<!---------------------about------------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/My Photos.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a 6th semester student at Institut Teknologi Indonesia, majoring in Informatics Engineering with a GPA of 3.19. 
+                    So far, I have participated in various academic activities in the field of informatics, including several coursesthat 
+                    are the basis of informatics engineering. I have also carried out several student projects related to my field. Iam disciplined, 
+                    diligent and love to learn new things. I am able to communicate individually and in teams and Iam interested in working creatively and innovatively.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                </div>
+                <div class="tab-contens active-tab" id="skills">
+                    <ul>
+                        <li><span>Microsoft Office</span><br>Word, Excel, and PowerPoint</li>
+                        <li><span>Graphic Design</span><br>Typography Selecting and arranging 
+                            <br>fonts to enhance the readability and aesthetics of text</li>
+                        <li><span>Figma UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>WordPress</span><br>Creation of various websites with templates</li>
+                    </ul>
+                </div>
+                <div class="tab-contens" id="experience">
+                    <ul>
+                        <li><span>Oktober 2023 - Maret 2024</span><br>UI/UX Designer</li>
+                        <li><span>Oktober 2023 - Maret 2024</span><br>IT Team</li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-contens" id="education">
+                    <ul>
+                        <li><span>2015 - 2018</span><br>Junior high school 2 of Mekakau Ilir</li>
+                        <li><span>2018 - 2021</span><br>Senior High School 1 of Banding Agung :
+                            <br>Department of natural sciences.</li>
+                        <li><span>2021 - Present</span><br>Institute Of Technology Indonesia :
+                            <br>Majoring In Informatics Engineering.</li>
+                    </ul>
+                </div>
+                <div class="tab-contens" id="certificate">
+                    <ul>
+                        <li><span>July - August 2022</span><br>Junior Network AdministratorTraining</li>
+                        <li><span>September - October 2023</span><br>Junior Web Developer Training</li>
+                        <li><span>July - August 2022</span><br>UI/UX Design</li>
+                        <li><span>August 2022</span><br>Data Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+ <!---------------------Services---------------------> 
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Microsoft Office</h2>
+                <p>Microsoft Office can easily integrate written reports using Word, 
+                    organize data with Excel, and present their findings effectively through PowerPoint presentations.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic design is a visual language that allows designers to communicate ideas, emotions, 
+                    and information with clarity through the use of design elements such as color, shape, and space.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>Figma UI/UX</h2>
+                <p>Figma is a top choice for UI/UX designers because it provides an all-in-one platform that covers design, 
+                    prototyping, and collaboration, improving team efficiency and coordination.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>WordPress</h2>
+                <p>With thousands of themes and plugins available, WordPress provides the ability to transform a website into something unique, 
+                    suited to the owner's needs and vision.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-------------------Portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Coffe App.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Manage and develop creative content to increase user interaction and engagement.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Shopping Shop.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Manage and develop creative content to increase user interaction and engagement.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BMKG.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Manage and develop creative content to increase user interaction and engagement.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------------Contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-life">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> serimulyani2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 085263117213</p>
+                <div class="social-icons">
+                <a href="https//facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Sri Mulyani CV.pdf" download class ="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sri Mulyani. Made Width <i class="fa-solid fa-heart"></i> Portfolio</p>
+    </div>
+</div>
+
+
+ 
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontens = document.getElementsByClassName("tab-contens")
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabconten of tabcontens){
+            tabconten.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxf4X5qtoqCe254u6ssYsOV8Sh5AP3L3X__c9IgcDq_onu64i-v5qq5BztqCvppDa3vHA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Send Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
